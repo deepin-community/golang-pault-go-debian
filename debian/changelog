@@ -1,5 +1,90 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-pault-go-debian (0.9-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 13.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Shengjing Zhu ]
+  * Update maintainer address to team+pkg-go@tracker.debian.org
+  * Update Section to golang
+  * Replace transitional package in Depends
+  * Add Rules-Requires-Root
+  * Add Multi-Arch hint
+  * Update Standards-Version to 4.6.1 (no changes)
+  * Update uscan watch file to version 4
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 13 Sep 2022 15:13:39 +0800
+
+golang-pault-go-debian (0.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version.
+
+ -- Alexandre Viau <aviau@debian.org>  Fri, 29 Jun 2018 15:44:05 -0400
+
+golang-pault-go-debian (0.8-1) unstable; urgency=medium
+
+  * Team upload.
+  * Point Vcs-* urls to salsa.debian.org.
+  * Set Testsuite: autopkgtest-pkg-go.
+  * Add watch file.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 30 May 2018 18:11:25 -0400
+
+golang-pault-go-debian (0.6-1) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Remove Built-Using from arch:all -dev package
+
+  [ Michael Stapelberg ]
+  * New upstream version 0.6
+  * update build-deps
+  * bump to compat 11
+  * add myself as uploader
+  * secure URIs
+  * rules: remove dh_installchangelogs override
+  * Bump Standards-Version (no changes necessary)
+  * Priority extra is replaced by priority optional
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 14 Mar 2018 19:22:47 +0100
+
+golang-pault-go-debian (0.5-1) unstable; urgency=medium
+
+  * Upstream release.
+
+ -- Paul Tagliamonte <paultag@debian.org>  Sat, 29 Oct 2016 18:29:16 -0400
+
+golang-pault-go-debian (0.4-1) unstable; urgency=medium
+
+  * Upstream release.
+
+ -- Paul Tagliamonte <paultag@debian.org>  Wed, 02 Sep 2015 16:16:31 -0400
+
+golang-pault-go-debian (0.3-1) unstable; urgency=medium
+
+  * Upstream release.
+
+ -- Paul Tagliamonte <paultag@debian.org>  Fri, 14 Aug 2015 16:09:34 +0200
+
+golang-pault-go-debian (0.2-2) unstable; urgency=medium
+
+  * Switch to use dh-golang >= 0.10, to use the XS-Go-Import-Path control
+    header, rather than the debian/rules export.
+
+ -- Paul Tagliamonte <paultag@debian.org>  Fri, 14 Aug 2015 12:10:46 +0200
+
+golang-pault-go-debian (0.2-1) unstable; urgency=medium
+
+  * Upstream release.
+
+ -- Paul Tagliamonte <paultag@debian.org>  Fri, 31 Jul 2015 12:53:50 -0400
+
+golang-pault-go-debian (0.1+git20150726.2.66db6de-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Paul Tagliamonte <paultag@debian.org>  Sun, 26 Jul 2015 14:42:06 -0400
